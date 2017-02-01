@@ -4,7 +4,7 @@ environment_variables:
   plaintext:
     AWS_DEFAULT_REGION: "us-west-2"
     GIT_IMAGE_REPO_NAME: "buildexample"
-    AWS_IMAGE_REPO_NAME: "scoring"
+    AWS_IMAGE_REPO_NAME: "dnbi/scoring"
     IMAGE_TAG: "bexample100"
     AWS_ACCOUNT_ID: "236573294224"
 
