@@ -1,5 +1,12 @@
 version: 0.1
 
+environment_variables:
+  plaintext:
+    AWS_DEFAULT_REGION: "us-west-2"
+    IMAGE_REPO_NAME: "buildexample"
+    IMAGE_TAG: "bexample100"
+    AWS_ACCOUNT_ID: "236573294224"
+
 phases:
   pre_build:
     commands:
